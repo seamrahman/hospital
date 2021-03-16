@@ -1,0 +1,787 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+/*
+==========================
+    header part css start
+==========================
+*/
+#header-part .main {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#header-part .logo {
+    width: 15%;
+    margin-left: 20px;
+}
+
+#header-part .logo img {
+    margin-top: 13px;
+}
+
+#header-part .head-line {
+    width: 52%;
+}
+
+#header-part .head-line h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color: #3ca2a2;
+    margin-left: 45px;
+    font-weight: 700;
+}
+
+#header-part .number {
+    width: 35%;
+}
+
+#header-part .number h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    font-size: 30px;
+    color: red;
+    margin-right: 30px;
+    font-weight: 400;
+}
+
+/*
+==========================
+    header part css end
+==========================
+*/
+
+/*
+==========================
+     nav-part css start
+==========================
+*/
+#nav-part {
+    background: #bc0b10;
+
+}
+
+#nav-part .main {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-part .nav-item {
+    width: 95%;
+}
+
+#nav-part .nav-item ul li {
+    display: inline-block;
+    padding: 15px 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .4s;
+    color: #fff;
+    cursor: pointer;
+}
+
+#nav-part .nav-item ul li:hover {
+    background: #f18d26;
+}
+
+#nav-part .nav-icon {
+    width: 10%;
+}
+
+#nav-part .nav-icon i {
+    width: 26px;
+    height: 26px;
+    background: #fff;
+    color: #be0b11;
+    border-radius: 50%;
+    line-height: 26px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+/*
+==========================
+     nav-part css end
+==========================
+*/
+
+/*
+==========================
+     banner-part css start
+==========================
+*/
+#banner-part {
+    background: url(../images/banner-1.png) no-repeat center;
+    background-size: cover;
+    padding-top: 20px;
+
+}
+
+#banner-part .main {
+    justify-content: space-between;
+}
+
+#banner-part .text h3 {
+    padding-top: 75px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 600;
+    color: #215a6d;
+}
+
+#banner-part .text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 48px;
+    font-weight: 600;
+    color: #215a6d;
+}
+
+#banner-part .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #215a6d;
+    width: 265px;
+    margin-top: 32px;
+}
+
+#banner-part .text a {
+    display: inline-block;
+    color: #fff;
+    padding: 14px 27px;
+    border-radius: 30px;
+    background: #92c7a3;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#banner-part .img img {
+    width: 120%;
+    margin-right: 40px;
+}
+
+/*
+==========================
+     banner-part css end
+==========================
+*/
+
+/*
+==========================
+     service part css start
+==========================
+*/
+#service-part {
+    margin-top: 47px;
+}
+
+#service-part .main {
+    justify-content: space-between;
+}
+
+
+#service-part .item {
+    width: 30%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+#service-part .item h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #3ca2a2;
+    margin-bottom: 26px;
+}
+
+#service-part .item img {
+    margin-bottom: 17px;
+}
+
+#service-part .item .text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #353535;
+    width: 345px;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+
+#service-part .item .find {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15px;
+
+}
+
+#service-part .item i {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 138px;
+
+}
+
+/*
+==========================
+     service part css end
+==========================
+*/
+
+/*
+==========================
+     about part css start
+==========================
+*/
+#about-part {
+    background: #dfece6;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#about-part .main {
+    justify-content: space-between;
+}
+
+#about-part .item-1 {
+    width: 48%;
+}
+
+#about-part .item-1 h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #215a6d;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#about-part .item-1 .notice ul li {
+    padding: 14px 20px 23px 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3ca2a2;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+#about-part .item-1 .notice ul li::after {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 633px;
+    height: 2px;
+    background: #3ca2a2;
+    content: "";
+}
+
+#about-part .item-1 .notice ul li:last-child::after {
+    display: none;
+}
+
+#about-part .item-1 .notice i {
+    padding: 20px 25px;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+#about-part .item-1 h3::after {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 55px;
+    height: 1px;
+    background: red;
+    content: "";
+}
+
+#about-part .item-2 {
+    width: 48%;
+}
+
+#about-part .item-2 h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #215a6d;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#about-part .item-2 h3::after {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 55px;
+    height: 1px;
+    background: red;
+    content: "";
+}
+
+#about-part .item-2 img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#about-part .item-1 .contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+    color: red;
+}
+
+#about-part .item-1 .contact {
+    position: relative;
+    margin-top: 25px;
+}
+
+#about-part .item-1 .contact i {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*
+==========================
+     about part css end
+==========================
+*/
+
+/*
+==========================
+     info part css start
+==========================
+*/
+#info-part {
+    margin-top: 65px;
+}
+
+#info-part .main {
+    justify-content: space-between;
+}
+
+#info-part .item {
+    width: 32%;
+    margin-bottom: 30px;
+}
+
+#info-part .medical {
+    width: 28%;
+    margin-bottom: 30px;
+}
+
+#info-part .photo {
+    width: 26%;
+    margin-bottom: 30px;
+}
+
+#info-part .item h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #215a6d;
+    position: relative;
+
+}
+
+#info-part .item h3::before {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 55px;
+    height: 2px;
+    background: red;
+    content: "";
+}
+
+#info-part .item h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3ca2a2;
+    margin-top: 60px;
+}
+
+#info-part .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 345px;
+    position: relative;
+}
+
+#info-part .item h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 345px;
+}
+
+#info-part .item p::after {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    background: #f1f1f1;
+    width: 370px;
+    height: 1px;
+    content: "";
+}
+
+#info-part .item .contact h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+    color: #3ca2a2;
+}
+
+#info-part .item .contact {
+    position: relative;
+    margin-top: 35px;
+}
+
+#info-part .item .contact i {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#info-part .medical h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #215a6d;
+    position: relative;
+
+}
+
+#info-part .medical h3::before {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 55px;
+    height: 2px;
+    background: red;
+    content: "";
+}
+
+#info-part .medical ul {
+    margin-top: 50px;
+}
+
+#info-part .medical ul li {
+    margin-bottom: 20px;
+    padding-left: 24px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#info-part .medical i {
+    position: absolute;
+    top: 2;
+    left: 0;
+    color: red;
+}
+
+#info-part .medical .contact h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+    color: #3ca2a2;
+}
+
+#info-part .medical .contact {
+    position: relative;
+    margin-top: 20px;
+}
+
+#info-part .medical .contact i {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#info-part .photo h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #215a6d;
+    position: relative;
+    margin-bottom: 55px;
+
+}
+
+#info-part .photo h3::before {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 55px;
+    height: 2px;
+    background: red;
+    content: "";
+}
+
+#info-part .photo .main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#info-part .photo .img {
+    width: 50%;
+    margin-top: 10px;
+}
+
+#info-part .photo .contact h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+    color: #3ca2a2;
+}
+
+#info-part .photo .contact {
+    position: relative;
+    margin-top: 28px;
+}
+
+#info-part .photo .contact i {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*
+==========================
+     info part css end
+==========================
+*/
+
+
+/*
+==========================
+     doctor part css start
+==========================
+*/
+
+#doctor-part .title h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #215a6d;
+    position: relative;
+    margin-bottom: 55px;
+
+}
+
+#doctor-part .title h3::before {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 55px;
+    height: 2px;
+    background: red;
+    content: "";
+}
+
+#doctor-part .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#doctor-part .item {
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+#doctor-part .item img {
+    width: 100%;
+}
+
+#doctor-part .item h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #215a6d;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+#doctor-part .item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #215a6d;
+}
+
+#doctor-part .item h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: red;
+    margin-top: 8px;
+}
+
+/*
+==========================
+     doctor part css end
+==========================
+*/
+
+/*
+==========================
+     footer part css start
+==========================
+*/
+
+#footer-part {
+    background: #222222;
+    height: 300px;
+    padding-bottom: 45px;
+}
+
+#footer-part .top {
+    padding-top: 25px;
+}
+
+#footer-part .top .logo {
+    width: 10%;
+}
+
+#footer-part .top .text {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+#footer-part .top .text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #3ca2a2;
+}
+
+#footer-part .bottom .main {
+    justify-content: space-between;
+}
+
+#footer-part .bottom .item {
+    width: 23%;
+    margin-top: 45px;
+}
+
+#footer-part .bottom .item h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3ca2a2;
+}
+
+#footer-part .bottom .item ul {
+    margin-top: 25px;
+}
+
+#footer-part .bottom .item ul li {
+    margin-bottom: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 12px;
+    position: relative;
+}
+
+#footer-part .bottom .item ul li i {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    color: red;
+}
+
+#footer-part .bottom .item ul .phn {
+    padding-left: 18px;
+}
+
+/*
+==========================
+     footer part css end
+==========================
+*/
+
+/*
+==========================
+footer-bottom part css start
+==========================
+*/
+
+#footer-bottom {
+    background: #cf0511;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-bottom h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #cc9c9c;
+}
+
+/*
+==========================
+footer-bottom part css end
+==========================
+*/
